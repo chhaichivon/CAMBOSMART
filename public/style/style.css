@@ -1,0 +1,31 @@
+
+/*@media(min-width: 1024px) {*/
+    /*.megamenu > .dropdown-menu {*/
+
+        /*margin: 0 auto;*/
+        /*top: 0;*/
+        /*height:300px;*/
+        /*left: 100%;*/
+        /*width: 800px;*/
+        /*!* float: left; *!*/
+        /*border-radius: 0;*/
+        /*position: absolute;*/
+        /*!* vertical-align: top; *!*/
+        /*!* overflow: hidden; *!*/
+    /*}*/
+/*}*/
+/*@media(min-width: 480px) {*/
+    /*.megamenu > .dropdown-menu {*/
+
+        /*margin: 0 auto;*/
+        /*top: 0;*/
+        /*height:inherit;*/
+        /*left: 100%;*/
+        /*width: 300px;*/
+        /*!* float: left; *!*/
+        /*border-radius: 0;*/
+        /*position: inherit;*/
+        /*!* vertical-align: top; *!*/
+        /*!* overflow: hidden; *!*/
+    /*}*/
+/*}*/

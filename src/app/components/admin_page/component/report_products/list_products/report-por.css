@@ -1,0 +1,40 @@
+/*
+    components/admin_page/report_product/report_pro.css
+*/
+.row.list-product-report .col-xs-12.col-sm-12.col-lg-2 {
+    margin-left: -15px;
+    margin-right: 15px;
+}
+.report {
+    padding-right: 0;
+}
+.col-xs-12.col-sm-12.col-lg-2.search {
+    padding-left: 30px;
+}
+.reset-button.btn.btn-info {
+    background: #232f3e;
+    padding: 8px;
+    width: 114px;
+}
+.btn-info:hover {
+    color: #fff;
+    border-color: #fff;
+}
+.print-button.btn.btn-info {
+    background: #232f3e;
+    width: 100%;
+    padding: 10px;
+}
+ul.all-product {
+    padding: 0;
+}
+ul.all-product li {
+    float: left;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.print.fa.fa-print {
+    padding-right: 6px;
+    font-size: 17px;
+}

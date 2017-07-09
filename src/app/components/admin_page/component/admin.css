@@ -1,0 +1,75 @@
+/*
+    component/admin_page/admin.css
+*/
+
+.nav.navbar-top-links.navbar-right {
+    margin-top: 17px;
+}
+.admin-navigation{
+    box-shadow: #4f5b69;
+
+}
+.admin-navigation nav.navbar.navbar-default {
+    background-color: #fff8b1;
+}
+img.logo {
+    margin-top: 0px;
+}
+.col-sm-12.col-lg-12.col-md-12.wrap-nav {
+    padding: 0px;
+    margin: 0px;
+}
+p.submit_item {
+    margin-left: 40px;
+}
+ul.in-table {
+    list-style-type: none;
+    display: inline-flex;
+}
+.in-table p {
+    margin: 0px 3px -12px;
+}
+thead.table-header {
+    background: #d06000;
+    color: white;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+.in-table.btn {
+    width: 50px !important;
+}
+.col-md-8.col-sm-6.col-xs-12.personal-info {
+    border-left:1px solid #c5c5c5;
+}
+h3.merchant-info {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.39);
+    padding-bottom: 7px;
+    background: #fbfbfb;
+    padding-top: 5px;
+}
+.form-horizontal .control-label.info {
+    text-align: left;
+    margin-left: 19px;
+}
+
+@media (min-width: 320px) {
+    .col-xs-12.col-sm-12.col-lg-3.report {
+        margin-left: -15px !important;
+    }
+
+}
+@media (min-width: 1200px) {
+    .col-xs-12.col-sm-12.col-lg-3.report {
+        margin-left: 0px !important;
+    }
+
+}
+
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background: none;
+}

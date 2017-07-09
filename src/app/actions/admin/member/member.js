@@ -1,0 +1,82 @@
+export const PROMOTE_MEMBER = 'PROMOTE_MEMBER';
+export const PROMOTE_MEMBER_SUCCESS = 'PROMOTE_MEMBER_SUCCESS';
+export const PROMOTE_MEMBER_FAIL = 'PROMOTE_MEMBER_FAIL';
+
+export const ADMIN_DETAIL_MEMBER = "ADMIN_DETAIL_MEMBER";
+export const ADMIN_DETAIL_MEMBER_SUCCESS = "ADMIN_DETAIL_MEMBER_SUCCESS";
+export const ADMIN_DETAIL_MEMBER_FAIL = "ADMIN_DETAIL_MEMBER_FAIL";
+
+export const ADMIN_LIST_MEMBER_REQUEST = "ADMIN_LIST_MEMBER_REQUEST";
+export const ADMIN_LIST_MEMBER_REQUEST_SUCCESS = "ADMIN_LIST_MEMBER_REQUEST_SUCCESS";
+export const ADMIN_LIST_MEMBER_REQUEST_FAIL = "ADMIN_LIST_MEMBER_REQUEST_FAIL";
+
+export const ADMIN_DELETE_MEMBER_REQUEST = "ADMIN_DELETE_MEMBER_REQUEST";
+export const ADMIN_DELETE_MEMBER_REQUEST_SUCCESS = "ADMIN_DELETE_MEMBER_REQUEST_SUCCESS";
+export const ADMIN_DELETE_MEMBER_REQUEST_FAIL  = "ADMIN_DELETE_MEMBER_REQUEST_FAIL";
+
+export const ADMIN_LIST_MEMBER_REQUESTS_EXPIRED = "ADMIN_LIST_MEMBER_REQUESTS_EXPIRED";
+export const ADMIN_LIST_MEMBER_REQUESTS_EXPIRED_SUCCESS = "ADMIN_LIST_MEMBER_REQUESTS_EXPIRED_SUCCESS";
+export const ADMIN_LIST_MEMBER_REQUESTS_EXPIRED_FAIL = "ADMIN_LIST_MEMBER_REQUESTS_EXPIRED_FAIL";
+
+export const ADMIN_DELETE_MEMBER_REQUESTS_EXPIRED = "ADMIN_DELETE_MEMBER_REQUESTS_EXPIRED";
+export const ADMIN_DELETE_MEMBER_REQUESTS_EXPIRED_SUCCESS = "ADMIN_DELETE_MEMBER_REQUESTS_EXPIRED_SUCCESS";
+export const ADMIN_DELETE_MEMBER_REQUESTS_EXPIRED_FAIL = "ADMIN_DELETE_MEMBER_REQUESTS_EXPIRED_FAIL";
+
+/* ADMIN PROMOTE MEMBER TO BE MERCHANT */
+export function promoteMemberAction(member) {
+    return{
+        type: PROMOTE_MEMBER,
+        member: member
+    }
+}
+
+/* ADMIN DETAIL MEMBER  */
+export function actionDetailMemberAction(id) {
+    return{
+        type: ADMIN_DETAIL_MEMBER,
+        id: id
+    }
+}
+
+/* ADMIN LIST MEMBER REQUEST */
+export function actionAdminListMemberRequest(request) {
+    return{
+        type: ADMIN_LIST_MEMBER_REQUEST,
+        request: request
+    }
+}
+
+/* ADMIN DELETE MEMBER REQUEST */
+export function actionAdminDeleteMemberRequest(id) {
+    return{
+        type: ADMIN_DELETE_MEMBER_REQUEST,
+        id: id
+    }
+}
+
+/* ADMIN LIST MEMBER REQUEST EXPIRED */
+export function actionListMemberRequestsExpired(expired) {
+    return{
+        type: ADMIN_LIST_MEMBER_REQUESTS_EXPIRED,
+        expired: expired
+    }
+}
+
+/* ADMIN DELETE MEMBER REQUEST EXPIRED */
+export function actionDeleteMemberRequestsExpired() {
+    return{
+        type: ADMIN_DELETE_MEMBER_REQUESTS_EXPIRED
+    }
+}
+
+
+/* ADMIN COUNT NORMAL MEMBER */
+export const ADMIN_COUNT_NORMAL_MEMBERS = "ADMIN_COUNT_NORMAL_MEMBERS";
+export const ADMIN_COUNT_NORMAL_MEMBERS_SUCCESS = "ADMIN_COUNT_NORMAL_MEMBERS_SUCCESS";
+export const ADMIN_COUNT_NORMAL_MEMBERS_FAIL  = "ADMIN_COUNT_NORMAL_MEMBERS_FAIL";
+export function actionAdminCountNormalMembers(member) {
+    return{
+        type: ADMIN_COUNT_NORMAL_MEMBERS,
+        member: member
+    }
+}

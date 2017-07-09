@@ -1,0 +1,64 @@
+/*
+    admin_page/component/dashboard/style.css
+*/
+.dashboard {
+    width: 100%;
+}
+.dashboard .row {
+    padding: 10px 0;
+}
+.quick_box1,
+.quick_box2,
+.quick_box3,
+.quick_box4 {
+    height: 120px;
+    padding: 0 25px;
+    padding-top: 15px;
+}
+.quick_box1 {
+    background: #00C0EF;
+}
+.quick_box2 {
+    background: #00A65A;
+}
+.quick_box3 {
+    background: #F39C12;
+}
+.quick_box4 {
+    background: #DD4B39;
+}
+.quick_box_text {
+    float: left;
+    color: #fff;
+}
+.quick_box_icon {
+    float: right;
+}
+.quick_box_icon .fa {
+    font-size: 50px;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.income_box {
+    background: #fff;
+    height: 300px;
+    padding: 5px 10px;
+}
+
+.income_box_icon {
+    font-size: 60px;
+    text-align: center;
+    padding: 5px;
+}
+
+.income_box_icon .fa {
+    border: 3px solid lightblue;
+    border-radius: 50%;
+    background: #D6F6FB;
+    color: gray;
+}
+.income_box_text {
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,57 @@
+/*
+    components/admin_page/member/member.css
+*/
+thead.member-style-head {
+    background-color: #ff6903;
+    color: white;
+}
+.wrap-member{
+    margin-top: 10px;
+}
+
+input.form-control.custome-button-search {
+    background-color: #ff6903;
+    color: white;
+    height: 40px;
+}
+.wrap-member-form.row {
+    margin: 0px -8px;
+}
+.btn-toolbar.custom-pagination {
+    float: right;
+}
+input.form-control.custom-date {
+    height: 40px;
+}
+select.form-control.custom-date {
+    height: 40px;
+}
+/*Sona*/
+a:hover{
+    cursor: pointer;
+}
+a.cannotselect {
+    cursor: text;
+}
+input.form-control {
+    height: 40px;
+    padding-left:30px;
+}
+
+.user-pagination{
+    margin-top: 0;
+}
+
+@media (min-width: 1900px) {
+    .form_datepicker_style {
+        width: 100%;
+        min-width: 0;
+    }
+}
+.react-datepicker__input-container {
+    position: relative;
+    display: inherit;
+}
+.table-responsive.wrap-member-table {
+    margin: 10px;
+}

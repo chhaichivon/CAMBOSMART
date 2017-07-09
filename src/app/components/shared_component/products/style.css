@@ -1,0 +1,81 @@
+/*
+    share_component/products/style.css
+*/
+p.discount {
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 60px;
+    color: #f77416;
+}
+p.price {
+    margin-top: 58px;
+    float: right;
+    color: green;
+    font-size: 20px;
+}
+p.original strike{
+    margin-top: 58px;
+    color: green;
+    font-size: 15px;
+}
+.detail.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.wrap-content-product-grid {
+    /*position: absolute;*/
+    /*right: -9px;*/
+    /*bottom: 115px;*/
+    /* background: #232f3e; */
+}
+@media (min-width: 1200px){
+    .title-product.make-cute-title-grid {
+        padding: 0px;
+        margin: 5px 0 0 -5px;
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+    .iPrice{
+        margin-right: -15px;
+    }
+    /*.discount {*/
+        /*font-size: 16px;*/
+        /*color: rgb(247, 116, 22);*/
+        /*font-weight: bold;*/
+        /*margin-left: -20px;*/
+    /*}*/
+}
+p.discount-list {
+    background: white;
+    padding: 5px;
+    color: #f77416;
+    font-weight: bold;
+    font-size: 18px;
+    /* margin-left: -5px; */
+}
+
+.col-xs-12.col-sm-12.col-md-12.col-lg-12.price-list {
+    padding-left: 0;
+    padding-right: 0;
+}
+p.price-list {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.merchant-add-sub-nav .nav-tabs li{
+    background: #232f3e;
+    width: 224px;
+    border-right: 1px solid white;
+}
+.col-xs-9.col-md-9.col-sm-9.col-lg-9.list {
+    padding-right: 0;
+}
+.col-sm-12.col-xs-12.col-md-12.col-lg-12.discount-list {
+    padding-left: 0;
+    padding-right: 0;
+}
+.col-xs-3.col-md-3.col-sm-3.col-lg-3.list {
+    padding-left: 0;
+    padding-right: 0;
+}

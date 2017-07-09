@@ -1,0 +1,90 @@
+/* component/store/store.css */
+.wrapp-content-store {
+    background: rgba(226, 226, 226, 0.79);
+}
+.contact-store {
+    background: white;
+    padding: 5px;
+    box-shadow: 1px 1px 5px 0px rgba(128, 128, 128, 0.36);
+}
+.container-fluid.store-component{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.row.row-store-component{
+    background-color: #232F3E;
+    height: 50px;
+}
+.row.row-banner-store{
+    margin-top: 20px;
+}
+.tab-special-category ul.nav.nav-tabs{
+    border-bottom: 0px solid #f77416;
+    height:43px;
+    background: transparent;
+}
+.wrap-store-list {
+    /*border: 1px solid #ceadad;*/
+}
+
+.image-banner img{
+    width: 1120px;
+}
+p.center {
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+h4.title-store {
+    background-color: #febd69;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.21);
+}
+h4.title-store p {
+    margin-left: 19px;
+}
+.go-home-page {
+    margin-top: 29px;
+    color: white;
+    float: right;
+    font-size: 18px;
+}
+.go-home-page a {
+    color: white;
+}
+
+.container.store {
+    min-height: 89.8vh;
+}
+.image-banner {
+    padding-bottom: 10px;
+}
+.image-banner img {
+    width: 100%;
+}
+
+p.store-title-label {
+    font-size: 18px;
+    font-weight: 600;
+}
+span.store-name-cap{
+    text-transform: capitalize;
+}
+p.store-name-cap{
+    text-transform: capitalize;
+}
+.wrap-content-stote {
+    background: #232f3e;
+    min-height: 50px;
+}
+.row.store {
+    margin-left: 5px;
+    box-shadow: 1px 1px 15px 0px rgb(212, 212, 212);
+    margin-right: 15px;
+    margin-bottom: 5px;
+}

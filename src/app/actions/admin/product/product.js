@@ -1,0 +1,151 @@
+export const ADMIN_LIST_PRODUCTS = "ADMIN_LIST_PRODUCTS";
+export const ADMIN_LIST_PRODUCTS_SUCCESS = "ADMIN_LIST_PRODUCTS_SUCCESS";
+export const ADMIN_LIST_PRODUCTS_FAIL = "ADMIN_LIST_PRODUCTS_FAIL";
+
+export const ADMIN_LIST_PRODUCTS_REPORT = "ADMIN_LIST_PRODUCTS_REPORT";
+export const ADMIN_LIST_PRODUCTS_REPORT_SUCCESS = "ADMIN_LIST_PRODUCTS_REPORT_SUCCESS";
+export const ADMIN_LIST_PRODUCTS_REPORT_FAIL = "ADMIN_LIST_PRODUCTS_REPORT_FAIL";
+
+export const ADMIN_UPDATE_PRODUCT_STATUS = "ADMIN_UPDATE_PRODUCT_STATUS";
+export const ADMIN_UPDATE_PRODUCT_STATUS_SUCCESS = "ADMIN_UPDATE_PRODUCT_STATUS_SUCCESS";
+export const ADMIN_UPDATE_PRODUCT_STATUS_FAIL = "ADMIN_UPDATE_PRODUCT_STATUS_FAIL";
+
+export const ADMIN_DELETE_PRODUCT = "ADMIN_DELETE_PRODUCT";
+export const ADMIN_DELETE_PRODUCT_SUCCESS = "ADMIN_DELETE_PRODUCT_SUCCESS";
+export const ADMIN_DELETE_PRODUCT_FAIL = "ADMIN_DELETE_PRODUCT_FAIL";
+
+export const ADMIN_GET_PRODUCT = "ADMIN_GET_PRODUCT";
+export const ADMIN_GET_PRODUCT_SUCCESS = "ADMIN_GET_PRODUCT_SUCCESS";
+export const ADMIN_GET_PRODUCT_FAIL = "ADMIN_GET_PRODUCT_FAIL";
+
+export const ADMIN_LIST_USERS_REQUEST = "ADMIN_LIST_USERS_REQUEST";
+export const ADMIN_LIST_USERS_REQUEST_SUCCESS = "ADMIN_LIST_USERS_REQUEST_SUCCESS";
+export const ADMIN_LIST_USERS_REQUEST_FAIL = "ADMIN_LIST_USERS_REQUEST_FAIL";
+
+export const ADMIN_DELETE_USER_REQUEST = "ADMIN_DELETE_USER_REQUEST";
+export const ADMIN_DELETE_USER_REQUEST_SUCCESS = "ADMIN_DELETE_USER_REQUEST_SUCCESS";
+export const ADMIN_DELETE_USER_REQUEST_FAIL = "ADMIN_DELETE_USER_REQUEST_FAIL";
+
+export const ADMIN_LIST_PROMOTE_PRODUCTS_BY_USER = "ADMIN_LIST_PROMOTE_PRODUCTS_BY_USER";
+export const ADMIN_LIST_PROMOTE_PRODUCTS_BY_USER_SUCCESS = "ADMIN_LIST_PROMOTE_PRODUCTS_BY_USER_SUCCESS";
+export const ADMIN_LIST_PROMOTE_PRODUCTS_BY_USER_FAIL = "ADMIN_LIST_PROMOTE_PRODUCTS_BY_USER_FAIL";
+
+export const ADMIN_APPROVE_PROMOTE_PRODUCT_REQUEST = "ADMIN_APPROVE_PROMOTE_PRODUCT_REQUEST";
+export const ADMIN_APPROVE_PROMOTE_PRODUCT_REQUEST_SUCCESS = "ADMIN_APPROVE_PROMOTE_PRODUCT_REQUEST_SUCCESS";
+export const ADMIN_APPROVE_PROMOTE_PRODUCT_REQUEST_FAIL = "ADMIN_APPROVE_PROMOTE_PRODUCT_REQUEST_FAIL";
+
+export const ADMIN_DELETE_PROMOTE_PRODUCT = "ADMIN_DELETE_PROMOTE_PRODUCT";
+export const ADMIN_DELETE_PROMOTE_PRODUCT_SUCCESS = "ADMIN_DELETE_PROMOTE_PRODUCT_SUCCESS";
+export const ADMIN_DELETE_PROMOTE_PRODUCT_FAIL = "ADMIN_DELETE_PROMOTE_PRODUCT_FAIL";
+
+export const ADMIN_UPDATE_STATUS_PRODUCT = "ADMIN_UPDATE_STATUS_PRODUCT";
+export const ADMIN_UPDATE_STATUS_PRODUCT_SUCCESS = "ADMIN_UPDATE_STATUS_PRODUCT_SUCCESS";
+export const ADMIN_UPDATE_STATUS_PRODUCT_FAIL = "ADMIN_UPDATE_STATUS_PRODUCT_FAIL";
+
+export const ADMIN_DELETE_REQUEST_PROMOTE_EXPIRED = "ADMIN_DELETE_REQUEST_PROMOTE_EXPIRED";
+export const ADMIN_DELETE_REQUEST_PROMOTE_EXPIRED_SUCCESS = "ADMIN_DELETE_REQUEST_PROMOTE_EXPIRED_SUCCESS";
+export const ADMIN_DELETE_REQUEST_PROMOTE_EXPIRED_FAIL = "ADMIN_DELETE_REQUEST_PROMOTE_EXPIRED_FAIL";
+
+/* ADMIN LIST PRODUCTS */
+export function actionAdminListProducts(products){
+    return{
+        type: ADMIN_LIST_PRODUCTS,
+        products: products
+    }
+}
+
+/* ADMIN DELETE PROMOTE PRODUCT */
+export function actionAdminDeletePromoteProduct(deleted){
+    return{
+        type: ADMIN_DELETE_PROMOTE_PRODUCT,
+        deleted: deleted
+    }
+}
+
+/* ADMIN LIST PROMOTE PRODUCTS BY USER ID */
+export function actionAdminListPromoteProductByUser(products){
+    return{
+        type: ADMIN_LIST_PROMOTE_PRODUCTS_BY_USER,
+        products: products
+    }
+}
+
+/* ADMIN GET PRODUCT */
+export function actionAdminGetProduct(id){
+    return{
+        type: ADMIN_GET_PRODUCT,
+        id:id
+    }
+}
+
+/* ADMIN UPDATE PRODUCT STATUS */
+export function actionAdminUpdateProductStatus(product){
+    return{
+        type: ADMIN_UPDATE_PRODUCT_STATUS,
+        product: product
+    }
+}
+/* ADMIN UPDATE PRODUCT STATUS NASEAT */
+export function actionAdminUpdateStatusProduct(product){
+    return {
+        type: ADMIN_UPDATE_STATUS_PRODUCT,
+        product: product
+    }
+}
+/* ADMIN DELETE PRODUCT STATUS */
+export function actionAdminDeleteProduct(id){
+    return{
+        type: ADMIN_DELETE_PRODUCT,
+        id:id
+    }
+}
+
+/* ADMIN LIST USERS REQUEST */
+export function actionAdminListUsers(users){
+    return{
+        type: ADMIN_LIST_USERS_REQUEST,
+        users: users
+    }
+}
+
+/* ADMIN APPROVE USER PROMOTE PRODUCT REQUEST */
+export function actionAdminApprovePromoteProduct(promote){
+    return{
+        type: ADMIN_APPROVE_PROMOTE_PRODUCT_REQUEST,
+        promote: promote
+    }
+}
+
+/* ADMIN DELETE USER REQUEST */
+export function actionAdminDeleteUserRequest(id){
+    return{
+        type: ADMIN_DELETE_USER_REQUEST,
+        id: id
+    }
+}
+
+/* ADMIN LIST PRODUCTS REPORT */
+export function actionAdminListProductsReport(products){
+    return{
+        type: ADMIN_LIST_PRODUCTS_REPORT,
+        products: products
+    }
+}
+
+/* ADMIN DELETE USER PROMOTE PRODUCT REQUEST EXPIRED */
+export function actionAdminDeleteRequestPromoteExpired(){
+    return {
+        type : ADMIN_DELETE_REQUEST_PROMOTE_EXPIRED
+    }
+}
+
+/* ADMIN COUNT PRODUCTS */
+export const ADMIN_COUNT_TODAY_PRODUCTS = "ADMIN_COUNT_TODAY_PRODUCTS";
+export const ADMIN_COUNT_TODAY_PRODUCTS_SUCCESS = "ADMIN_COUNT_TODAY_PRODUCTS_SUCCESS";
+export const ADMIN_COUNT_TODAY_PRODUCTS_FAIL = "ADMIN_COUNT_TODAY_PRODUCTS_FAIL";
+export function actionAdminCountTodayProducts(products){
+    return{
+        type: ADMIN_COUNT_TODAY_PRODUCTS,
+        products: products
+    }
+}

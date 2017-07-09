@@ -1,0 +1,64 @@
+/*
+    components/notification/style.css
+*/
+.notificationWrapper {
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px;
+    width: 70%;
+    background: #fff;
+    border: 1px solid #DFE0E4;
+}
+
+.notificationWrapper .title {
+    display: -webkit-inline-box;
+}
+
+.notificationWrapper .icon {
+    margin-right: 10px;
+}
+
+.notificationWrapper .icon .fa {
+    font-size: 44px;
+}
+
+.notificationWrapper .type span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.notificationWrapper .content {
+    padding: 15px;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+.viewNotificationsWrapper {
+    margin: auto;
+    margin-top: 15px;
+    width: 70%;
+}
+
+.viewNotificationsWrapper .title {
+    border-bottom: 1px solid rgb(169, 167, 167);
+}
+
+.viewNotificationsWrapper .title p {
+    font-size: 16px;
+    font-weight: bold;
+ }
+
+.viewNotificationsWrapper .fa {
+    margin: 5px;
+    font-size: 18px;
+ }
+
+ .viewNotificationsWrapper ui li {
+     list-style-type: none;
+     border-bottom: 1px solid lightgray;
+     padding: 3px;
+ }
+
+ .viewNotificationsWrapper ui li a {
+     color: #000;
+ }

@@ -1,0 +1,88 @@
+.page_border {
+    border: 1px solid lightgray;
+    padding: 5px 20px;
+}
+
+.marginTop_5 {
+    margin-top: 5px;
+}
+
+.marginTop_15 {
+    margin-top: 15px;
+}
+
+.padding_rl0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.ads_1170x250,
+.ads_860x250 {
+    border: 1px solid lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.ads_1170x180,
+.ads_865x115,
+.ads_425x115,
+.ads_570x156 {
+    border: 1px solid lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+.ads_280x450 {
+    border: 1px solid lightgray;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.schedule-dive-style {
+    margin-left: -15px;
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 80px
+}
+
+.advertisement table {
+    border-collapse: inherit;
+}
+
+.advertisement.panel-default > .panel-heading {
+    background: rgb(255, 105, 3);
+}
+
+.advertisement-div-disable-default {
+    margin-left: -15px;
+    margin-top: 30px;
+    background: #ddd;
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 100px;
+}
+
+.advertisement-div-disable-left{
+    margin-left: -15px;
+    background: #ddd;
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 160px;
+    padding-top: 15px;
+}
+
+.advertisement-div-cm {
+    margin-left: -15px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 100px;
+}
+
+.advertisement-div-cl{
+    margin-left: -15px;
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 160px;
+    padding-top: 15px;
+}

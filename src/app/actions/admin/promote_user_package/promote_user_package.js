@@ -1,0 +1,71 @@
+export const SAVE_PROMOTE_USER_PACKAGE = "SAVE_PROMOTE_USER_PACKAGE";
+export const SAVE_PROMOTE_USER_PACKAGE_SUCCESS = "SAVE_PROMOTE_USER_PACKAGE_SUCCESS";
+export const SAVE_PROMOTE_USER_PACKAGE_FAIL = "SAVE_PROMOTE_USER_PACKAGE_FAIL";
+
+export const LIST_PROMOTE_USER_PACKAGE = "LIST_PROMOTE_USER_PACKAGE";
+export const LIST_PROMOTE_USER_PACKAGE_SUCCESS = "LIST_PROMOTE_USER_PACKAGE_SUCCESS";
+export const LIST_PROMOTE_USER_PACKAGE_FAIL = "LIST_PROMOTE_USER_PACKAGE_FAIL";
+
+export const GET_PROMOTE_USER_PACKAGE = "GET_PROMOTE_USER_PACKAGE";
+export const GET_PROMOTE_USER_PACKAGE_SUCCESS = "GET_PROMOTE_USER_PACKAGE_SUCCESS";
+export const GET_PROMOTE_USER_PACKAGE_FAIL = "GET_PROMOTE_USER_PACKAGE_FAIL";
+
+export const DELETE_PROMOTE_USER_PACKAGE = "DELETE_PROMOTE_USER_PACKAGE";
+export const DELETE_PROMOTE_USER_PACKAGE_SUCCESS = "DELETE_PROMOTE_USER_PACKAGE_SUCCESS";
+export const DELETE_PROMOTE_USER_PACKAGE_FAIL = "DELETE_PROMOTE_USER_PACKAGE_FAIL";
+
+export const UPDATE_PROMOTE_USER_PACKAGE = "UPDATE_PROMOTE_USER_PACKAGE";
+export const UPDATE_PROMOTE_USER_PACKAGE_SUCCESS = "UPDATE_PROMOTE_USER_PACKAGE_SUCCESS";
+export const UPDATE_PROMOTE_USER_PACKAGE_FAIL = "UPDATE_PROMOTE_USER_PACKAGE_FAIL";
+
+export const LIST_ALL_PROMOTE_USER_PACKAGE = "LIST_ALL_PROMOTE_USER_PACKAGE";
+export const LIST_ALL_PROMOTE_USER_PACKAGE_SUCCESS = "LIST_ALL_PROMOTE_USER_PACKAGE_SUCCESS";
+export const LIST_ALL_PROMOTE_USER_PACKAGE_FAIL = "LIST_ALL_PROMOTE_USER_PACKAGE_FAIL";
+
+/* SAVE PROMOTED USER PACKAGE */
+export function actionSavePromoteUserPackage(packaged){
+    return {
+        type: SAVE_PROMOTE_USER_PACKAGE,
+        packaged: packaged
+    }
+}
+
+/* LIST PROMOTED USER PACKAGE */
+export function actionListPromoteUserPackage(packaged){
+    return {
+        type: LIST_PROMOTE_USER_PACKAGE,
+        packaged: packaged
+    }
+}
+
+/* LIST ALL PROMOTED USER PACKAGES */
+export function actionListAllPromoteUserPackage(){
+    return {
+        type: LIST_ALL_PROMOTE_USER_PACKAGE
+    }
+}
+
+/* GET PROMOTED USER PACKAGE */
+export function actionGetPromoteUserPackage(id){
+    return {
+        type: GET_PROMOTE_USER_PACKAGE,
+        id: id
+    }
+}
+
+/* UPDATE PROMOTED USER PACKAGE */
+export function actionUpdatePromoteUserPackage(packaged){
+    return {
+        type: UPDATE_PROMOTE_USER_PACKAGE,
+        packaged: packaged
+    }
+}
+
+/* DELETE PROMOTED USER PACKAGE */
+export function actionDeletePromoteUserPackage(id){
+    return {
+        type: DELETE_PROMOTE_USER_PACKAGE,
+        id: id
+    }
+}
+

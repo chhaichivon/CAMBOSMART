@@ -1,0 +1,39 @@
+.img-help {
+    height: 460px;
+    width: 760px;
+}
+
+.img-help-profile{
+    width: 760px;
+}
+.img-help_login{
+    width: 760px;
+}
+.about-cambosmart img {
+    height: 72px;
+    width: 72px;
+    /* border-radius: 52px; */
+    position: absolute;
+    top: 3px;
+    left: 24px;
+}
+.col-xs-12.col-sm-12.col-md-12.contact-us {
+    border-bottom: 2px dotted black;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 15px;
+}
+.top-title-privacy p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.title-privacy p {
+    font-size: 18px;
+}
+.content-privacy p {
+    padding: 0px;
+}
+span.float-right {
+    float: left;
+}

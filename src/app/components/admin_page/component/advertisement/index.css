@@ -1,0 +1,89 @@
+/*
+    components/admin_page/advertisement/index.css
+*/
+.advertisement .nav-tabs > li {
+    width: 235px;
+}
+.advertisement .tab-pane {
+    min-height: 700px;
+}
+.advertisement .nav-tabs>li.active>a, .advertisement .nav-tabs>li.active>a:focus, .advertisement .nav-tabs>li.active>a:hover {
+    background-color: #ff6903;/*rgb(254, 189, 105);*/
+    color: white;
+    border-top-right-radius: 0px;
+}
+
+.advertisement .nav-tabs {
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 50px;
+}
+
+.advertisement .nav-tabs:after{
+    content: "";
+    float: right;
+    margin-top: -43px;
+    margin-right: -164px;
+    border-left: 50px solid #ff6903;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    z-index: 1;
+    position: inherit;
+}
+
+.advertisement-detail.panel-default>.panel-heading {
+    background: #ff6903;
+}
+
+.schedule-div{
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    width: 103%;
+    height: 80px;
+    margin-left: -15px;
+}
+
+.schedule-div-ht2{
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    width: 102%;
+    height: 80px;
+}
+
+.schedule-div-right{
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    width: 103%;
+    height: 80px;
+}
+
+.schedule-div-l{
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    height: 200px;
+    margin-left: -15px;
+    padding-top: 50px;
+}
+
+.schedule-div-r{
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    height: 80px;
+    margin-right: -12px;
+    margin-top: 50px;
+}
+
+.schedule-header{
+    color: #ff6903;
+    margin-top: 20px;
+}
+.schedule-current{
+    color: #ff6903;
+    margin-top: 20px;
+    font-size: 11px;
+}
+.schedule-available{
+    color: #3e8e41;
+    font-size: 11px;
+}

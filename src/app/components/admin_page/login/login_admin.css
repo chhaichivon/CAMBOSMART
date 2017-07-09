@@ -1,0 +1,32 @@
+.background-login {
+    min-height: 100vh;
+    background: url(/background-hd.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.logo{
+    /*min-width: 355px;*/
+}
+
+.wrap-form-admin-login{
+    margin-top: 200px;
+}
+.wrap-row .row {
+    margin: 0;
+    width: 100%;
+}
+
+center.wrap-login-admin-login {
+    margin-bottom: 20px;
+}
+
+
+p.forget-password-admin {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    float: right;
+}

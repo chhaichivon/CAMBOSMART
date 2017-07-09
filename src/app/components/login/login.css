@@ -1,0 +1,800 @@
+/* component/login/login.css */
+/* Login Form */
+.login-form.col-lg-5.col-md-12.col-sm-12 {
+    float: right;
+}
+
+.wrap-login {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.container.wrap-login {
+    min-height: 61.5vh;
+}
+
+.wrap-row-form-login.row {
+    margin-top: 5px;
+}
+
+.wrap-full-form {
+    margin-top: 0px;
+}
+
+.show-error {
+    color: red;
+    font-size: 15px;
+}
+
+.item li a {
+
+    font-size: 20px;
+}
+
+/*Forget Password*/
+.wrap-form-forgetpassword {
+    margin-top: 50px;
+}
+
+.forget-password-title {
+    margin-bottom: 20px;
+}
+
+.cambo-login-wrap-link {
+    margin-top: 20px;
+}
+
+/*Desgin Tabs*/
+
+.tab-pane {
+    border: 0px solid #cccccc;
+}
+
+.tab-pane {
+    position: relative;
+    padding-top: 0px;
+}
+
+.tab-sign-in .tab-pane {
+    border: 0px solid #cccccc;
+    min-height: 240px;
+}
+
+.tab-sign-in .nav-tabs li {
+    background: #232f3e;
+    width: 206.5px;
+    border-radius: 0;
+}
+
+/*Navigation*/
+.wrap-header-login {
+    margin-bottom: 10px;
+}
+
+.login-row.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*Forget Password*/
+.forget-password {
+    float: right;
+}
+
+/* component member_page/component/index.css */
+.board {
+    width: 75%;
+    margin: 0px auto;
+    height: 500px;
+    background: #fff;
+    box-shadow: 10px 10px #ccc, -10px 20px #ddd;
+}
+
+h3.member-manage-ads {
+    padding: 0px;
+    font-size: 21px;
+    font-weight: bold;
+    background: #eaeaea;
+    padding-bottom: 7px;
+}
+
+.board .nav-tabs {
+    position: relative;
+    border-bottom: 0;
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 0;
+    box-sizing: border-box;
+
+}
+
+.board > div.board-inner {
+    background: #fafafa url(http://subtlepatterns.com/patterns/geometry2.png);
+    background-size: 30%;
+}
+
+p.narrow {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.liner {
+    height: 2px;
+    background: #ddd;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    background-color: #ffffff;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tabs {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: white;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+span.round-tabs.one {
+    color: rgb(34, 194, 34);
+    border: 2px solid rgb(34, 194, 34);
+}
+
+li.active span.round-tabs.one {
+    background: #fff !important;
+    border: 2px solid #ddd;
+    color: rgb(34, 194, 34);
+}
+
+span.round-tabs.two {
+    color: #febe29;
+    border: 2px solid #febe29;
+}
+
+li.active span.round-tabs.two {
+    background: #fff !important;
+    border: 2px solid #ddd;
+    color: #febe29;
+}
+
+span.round-tabs.three {
+    color: #3e5e9a;
+    border: 2px solid #3e5e9a;
+}
+
+li.active span.round-tabs.three {
+    background: #fff !important;
+    border: 2px solid #ddd;
+    color: #3e5e9a;
+}
+
+span.round-tabs.four {
+    color: #f1685e;
+    border: 2px solid #f1685e;
+}
+
+li.active span.round-tabs.four {
+    background: #fff !important;
+    border: 2px solid #ddd;
+    color: #f1685e;
+}
+
+span.round-tabs.five {
+    color: #999;
+    border: 2px solid #999;
+}
+
+li.active span.round-tabs.five {
+    background: #fff !important;
+    border: 2px solid #ddd;
+    color: #999;
+}
+
+.nav-tabs > li.active > a span.round-tabs {
+    background: #fafafa;
+}
+
+.nav-tabs > li {
+    width: 162.8px;
+}
+
+.nav-tabs-test > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+.nav-tabs > li a:hover {
+    background: transparent;
+}
+
+.tab-content {
+}
+
+.tab-content .head {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.btn-outline-rounded {
+    padding: 10px 40px;
+    margin: 20px 0;
+    border: 2px solid transparent;
+    border-radius: 25px;
+}
+
+.btn.green {
+    background-color: #5cb85c;
+    border: 2px solid #5cb85c;
+    color: #ffffff;
+}
+
+.wrap-product {
+    padding: 9px;
+    min-height: 128px;
+    background: #eaeaea;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.media-object.img-rounded.img-responsive {
+    border-radius: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(0%, -24%);
+}
+
+.pull-left {
+    height: 100px;
+    width: 180px;
+}
+
+.image {
+    position: absolute;
+    height: 100px;
+    width: 70%;
+    display: block;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.col-sm-12.item-info {
+    padding: 0;
+    background: #eaeaea;
+    margin: 0 auto;
+    border-bottom: 1px solid #f77416;
+    margin-bottom: 8px;
+    height: 34px;
+}
+
+ul.items {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    margin-bottom: 0px;
+}
+
+.items li {
+    margin-right: 1px;
+    padding: 6px;
+    float: left;
+    width: 100px;
+    background: #f77416;
+}
+
+.items li {
+    text-align: center;
+}
+
+.items li a {
+    color: white;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: rgb(254, 189, 105); /*#f77416;*/
+    color: white;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #f77416;
+    font-size: 17px;
+}
+
+.panel-default > .panel-heading {
+    background: rgb(254, 189, 105); /*#f77416;*/
+    color: white;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
+    background-repeat: no-repeat;
+}
+
+.long-title-hidden {
+    width: 640px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.product-price {
+    font-weight: bold;
+    /*font-family: monospace;*/
+    font-size: 20px;
+    color: #f77416;
+}
+
+
+.product-btn-free-post {
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+    height: 40px;
+    margin-left: -10px;
+    color: white;
+    background: #f78911;
+    float: right;
+}
+
+/* component member_page/component/index.css */
+.board {
+    width: 75%;
+    margin: 0px auto;
+    height: 500px;
+    background: #fff;
+    box-shadow: 10px 10px #ccc, -10px 20px #ddd;
+}
+
+h3.member-manage-ads {
+    padding: 0px;
+    font-size: 21px;
+    font-weight: bold;
+    background: #eaeaea;
+    padding-bottom: 7px;
+}
+
+.board .nav-tabs {
+    position: relative;
+    border-bottom: 0;
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 0;
+    box-sizing: border-box;
+
+}
+
+.board > div.board-inner {
+    background: #fafafa url(http://subtlepatterns.com/patterns/geometry2.png);
+    background-size: 30%;
+}
+
+p.narrow {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.liner {
+    height: 2px;
+    background: #ddd;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    background-color: #ffffff;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tabs {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: white;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+span.round-tabs.one {
+    color: rgb(34, 194, 34);
+    border: 2px solid rgb(34, 194, 34);
+}
+
+li.active span.round-tabs.one {
+    background: #fff !important;
+    border: 2px solid #ddd;
+    color: rgb(34, 194, 34);
+}
+
+span.round-tabs.two {
+    color: #febe29;
+    border: 2px solid #febe29;
+}
+
+li.active span.round-tabs.two {
+    background: #fff !important;
+    border: 2px solid #ddd;
+    color: #febe29;
+}
+
+span.round-tabs.three {
+    color: #3e5e9a;
+    border: 2px solid #3e5e9a;
+}
+
+li.active span.round-tabs.three {
+    background: #fff !important;
+    border: 2px solid #ddd;
+    color: #3e5e9a;
+}
+
+span.round-tabs.four {
+    color: #f1685e;
+    border: 2px solid #f1685e;
+}
+
+li.active span.round-tabs.four {
+    background: #fff !important;
+    border: 2px solid #ddd;
+    color: #f1685e;
+}
+
+span.round-tabs.five {
+    color: #999;
+    border: 2px solid #999;
+}
+
+li.active span.round-tabs.five {
+    background: #fff !important;
+    border: 2px solid #ddd;
+    color: #999;
+}
+
+.nav-tabs > li.active > a span.round-tabs {
+    background: #fafafa;
+}
+
+.nav-tabs > li {
+    width: 162.8px;
+}
+
+.nav-tabs-test > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+.nav-tabs > li a:hover {
+    background: transparent;
+}
+
+.tab-content {
+}
+
+.tab-sign-in .tab-pane {
+    position: relative;
+    padding-top: 0px;
+}
+
+.tab-content .head {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.btn-outline-rounded {
+    padding: 10px 40px;
+    margin: 20px 0;
+    border: 2px solid transparent;
+    border-radius: 25px;
+}
+
+.btn.green {
+    background-color: #5cb85c;
+    border: 2px solid #5cb85c;
+    color: #ffffff;
+}
+
+.wrap-product {
+    padding: 9px;
+    min-height: 128px;
+    background: #eaeaea;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.media-object.img-rounded.img-responsive {
+    border-radius: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(0%, -24%);
+}
+
+.pull-left {
+    height: 100px;
+    width: 180px;
+}
+
+.image {
+    position: absolute;
+    height: 100px;
+    width: 70%;
+    display: block;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.col-sm-12.item-info {
+    padding: 0;
+    background: #eaeaea;
+    margin: 0 auto;
+    border-bottom: 1px solid #f77416;
+    margin-bottom: 8px;
+    height: 34px;
+}
+
+ul.items {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    margin-bottom: 0px;
+}
+
+.items li {
+    margin-right: 1px;
+    padding: 6px;
+    float: left;
+    width: 100px;
+    background: #f77416;
+}
+
+.items li {
+    text-align: center;
+}
+
+.items li a {
+    color: white;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+.tab-sign-in .nav-tabs > li > a {
+    color: white;
+    border-right: 1px solid #aaaaaa;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 2px #ccc;
+    font-size: 16px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #f77416;
+    font-size: 17px;
+}
+
+.tab-sign-in .tab-pane {
+    /*border: 1px solid #cccccc;*/
+    min-height: 240px;
+}
+
+.panel-default > .panel-heading {
+    background: rgb(254, 189, 105); /*#f77416;*/
+    color: white;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
+    background-repeat: no-repeat;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: rgb(254, 189, 105);
+    color: white;
+}
+
+.panel-title > .small, .panel-title > .small > a, .panel-title > a, .panel-title > small, .panel-title > small > a {
+    color: inherit;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p.product.price {
+    font-weight: bold;
+    font-size: 15px;
+    color: #a94141;
+}
+
+p.product.date {
+    font-family: monospace;
+    font-weight: 200;
+    font-size: 13px;
+    color: #7d7575;
+}
+
+p.product.name {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.pro-item {
+    padding: 7px;
+    font-size: 16px;
+}
+
+.wrap-row {
+    padding: 4px;
+}
+
+.row.item-product {
+    background: #f5f5f5;
+    box-shadow: 0px 2px 4px #ababab;
+}
+
+.image-block {
+    padding: 7px;
+    /*box-shadow: 1px 1px 5px 2px #afaeae;*/
+}
+
+.pro-item {
+    font-size: 16px;
+}
+
+.pro-item.font-wight-bold {
+    font-weight: bold;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.pro-item.font-family {
+    font-family: monospace;
+}
+
+.pro-item.price {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 20px;
+    color: #9c1a1a;
+}
+
+.btn-default.product {
+    background: #585858;
+    min-width: 52px;
+    color: white;
+    border-radius: 0px;
+}
+
+.btn-default.product {
+    width: 92px;
+}
+
+.container.child {
+    padding: 0;
+}
+
+.image-wrapp {
+    padding: 5px;
+}
+
+.tooltip-inner {
+    background-color: #d9534f;
+    color: white;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #d9534f;
+}
+
+.product.thumbnail > img {
+    display: block;
+    max-width: 100%;
+    height: 220px;
+}
+
+/*override*/
+
+.tab-category {
+    margin: 0px 0px;
+    padding: 0px;
+    border: 0px;
+    float: left;
+}
+
+.tab-category ul li a {
+    font-size: 18px;
+    width: 160px;
+    overflow: hidden;
+    white-space: nowrap;
+    float: left;
+    text-overflow: ellipsis;
+}
+
+.tab-category ul li {
+    border: 0px;
+    padding: 0px;
+    margin: 0px -5px;
+}
+
+.tab-category .nav-tabs > li {
+    width: 172px;
+}
+
+.see-more .tab-category .nav-tabs > li {
+    width: 170px;
+}
+
+.tab-category .nav {
+    padding-left: 0;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.login-page.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+    margin-left: -3px;
+    padding-right: 0px;
+}
+
+.col-sm-6.col-xs-12 {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.legend_style_sign_in {
+    width: 121px;
+    margin-top: 15px;
+    color: #777777;
+    margin-left: 38% !important;
+    font-size: 14px;
+    display: block;
+    -webkit-padding-start: 2px;
+    -webkit-padding-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    font-size: 13px;
+}
+
+.login-form {
+    float: right;
+}
+
+.login-content {
+    float: left;
+}
+.container-fluid.wrap-form-forgetpassword {
+    min-height: 61vh;
+}

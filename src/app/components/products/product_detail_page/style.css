@@ -1,0 +1,156 @@
+/* components/products/product_detail_page/style.css */
+
+.product-detail {
+    background: #fff;
+}
+
+.img-detail {
+    padding-left: 9px;
+}
+
+.zoom {
+    display:inline-block;
+    position: relative;
+    width: 100%;
+    height: 260px;
+}
+
+.zoom img {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.zoom img::selection { background: #000; }
+
+.box-user-info {
+    min-height: 400px;
+    background: #fff7f4;
+    position: static;
+    border: 3px solid #fce2d3;
+}
+
+.slick-next:before, .slick-prev:before {
+    color: #000;
+}
+
+.sub-gallery {
+    margin-top: 6px;
+    width: 94%;
+}
+
+.bold_16 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bold_16_orange {
+    font-size: 16px;
+    color: #fa6f00;
+}
+
+.bold_20_orange {
+    font-size: 20px;
+    color: #fa6f00;
+}
+
+.display_underline {
+    text-decoration: underline;
+}
+
+.social_icon_circle {
+    background: #f29329;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    margin: 2px;
+}
+.box-user-info {
+    height: 100%;
+}
+.social_icon_circle {
+    font-size: 15px;
+}
+.list-inline img {
+    /*height: 15px;*/
+    margin-bottom: 0px;
+}
+.map-product img {
+    width: 140px;
+    height: 80px;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide img:hover, 
+.slick-slide img:active {
+    border: 2px solid #FEBD69;
+}
+
+.padding_left_right{
+    padding-left: 5px;
+    /*padding-right: 5px;*/
+}
+
+.box-user-info input, 
+#frmRate input {
+    display: none;
+}
+
+.rate_box {
+    border: 1px solid lightgray;
+    margin-top: 3px;
+    padding: 10px;
+}
+
+.safty {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #FFFBF6;
+    border: 1px solid #fcd8c1;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: Arial,'khmer', Helvetica, sans-serif;
+}
+.safty .title {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    color: #FF3500;
+}
+.SocialMediaShareButton.SocialMediaShareButton--facebook .social-icon {
+    background: #4267b2;
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 0;
+    height: 20px;
+    width: 53px;
+}
+.SocialMediaShareButton.SocialMediaShareButton--facebook .social-icon:hover {
+    cursor: pointer;
+}
+.share {
+    margin-top: -30px;
+    color: white;
+    margin-left: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: monospace;
+}
+rect {
+    fill: #4267b2;
+}
+.col-xs-1.share_button {
+    padding-right: 0;
+    padding-left: 0;
+}
+.col-xs-2.like {
+    padding-left: 0;
+}
+
+

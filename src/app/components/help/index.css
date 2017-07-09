@@ -1,0 +1,95 @@
+/*
+    components/help/component/index.css
+*/
+.container.help {
+    min-height: 65.6vh;
+}
+.help.glyphicon { margin-right:10px; }
+.help.fa {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #31708f;
+}
+.help-top.fa{
+    color:white;
+    padding-right: 7px;
+}
+.help.panel-body { padding:0px; }
+.help.panel-body table tr td { padding-left: 15px }
+.help.panel-body .table {margin-bottom: 0px; }
+.wrapp-help h4 {
+    padding: 17px;
+    background: #232f3e;
+    color: white;
+    font-family: inherit;
+    font-size: 23px;
+}
+.help.panel-default>.help.panel-heading {
+    background: rgb(35, 47, 62);
+    color: white;
+}
+.help.panel-group .panel+.panel {
+    margin-top: 0px;
+    border-radius: 0;
+}
+p.head-title {
+    font-weight: bold;
+    padding: 6px;
+    font-size: 16px;
+}
+p.title {
+    padding: 10px;
+    font-size: 16px;
+    margin-top:10px;
+}
+.help-content.profile-info img {
+    width: 100%;
+}
+.help-content img {
+    /* width: 54%; */
+    margin-bottom: 20px;
+}
+.top-title-privacy h2 {
+    padding: 5px;
+    /* background: red; */
+    margin-top: 0;
+}
+.contact-us h3 {
+    padding: 5px;
+    margin-left: 94px;
+    margin-top: 14px;
+}
+.contact-us p {
+    font-weight: 500;
+    font-family: monospace;
+    font-size: 17px;
+}
+.about-us h3 {
+    padding: 5px;
+    border-bottom: 1px solid #232F3E;
+}
+.about-us p {
+    font-weight: 500;
+    font-family: monospace;
+    font-size: 17px;
+}
+@media(min-width:320px){
+    .help-content img {
+        width:100%;
+    }
+}
+@media(min-width:768px){
+    .help-content img {
+        width:100%;
+    }
+}
+@media(min-width: 1024px){
+    .help-content img {
+        width:100%;
+    }
+}
+@media(min-width: 1200px){
+    .help-content img {
+        width:inherit;
+    }
+}
